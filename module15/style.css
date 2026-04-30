@@ -1,0 +1,65 @@
+div#static{
+    position:static;
+    border: 3px solid rosybrown;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+
+div#relative{
+    position:relative;
+    border: 3px solid rosybrown;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 200px;
+    top:20px;
+}
+
+
+div#fixed{
+    position:fixed;
+    border: 3px solid rosybrown;
+    width: 250px;
+    height: 250px;
+    right: 100px;
+    padding: 20px;
+    left: 200px;
+    top:100px;
+}
+
+div#parent{
+    position:relative;
+    border: 3px solid rosybrown;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 200px;
+    top:100px;
+    color: azure;
+}
+
+div#absolute{
+    position:absolute;
+    border: 3px solid rosybrown;
+    width: 50px;
+    height: 59px;
+    padding: 20px;
+    left: 200px;
+    top:100px;
+    color: blue;
+    background-color: aquamarine;
+
+}
+
+div#sticky{
+    position: sticky;
+    top:0px;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    
+}
+
+
